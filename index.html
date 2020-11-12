@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Google</title>
+        <style>
+            #logo {
+                position: relative;
+                left: 495px;
+                top: 190px;
+            }
+            #buttons {
+                position: relative;
+                display: inline-block;
+                right: 280px;
+                top: 317px;
+                background-color: transparent;
+                opacity: 0.7;                
+            }
+            button {
+                padding: 13px 19px 11px 19px;
+                border: none;
+                border-radius: 10%;
+                border: transparent;                                
+            }
+            
+            button:focus {
+                outline-color: transparent;
+            }
+            input:focus {
+
+                outline-style: none;
+            }
+            button:hover {
+                border: none;
+                outline-style: auto;
+
+                box-shadow:0 0px 0px rgba(32,33,36,.28);outline-color:rgba(0, 0, 0, 0.1)
+            }
+            #search {
+                position: relative;
+                display: inline-block;
+                border-style: solid;
+                border-width: 0.5px;
+                left: 112px;
+                top: 246px;
+                width: 480px;
+                height: 43px;
+                border-color: #dadce0;
+                border-radius: 24px;
+                text-overflow: ellipsis;
+                overflow: auto;
+                letter-spacing: 0.25px;
+                font-weight: 500;
+                text-align:  left;
+                font:500 14px/16px Helvetica,Arial,sans-serif;
+                z-index: 3;
+                font-size: 17px;
+                line-height: 34px;
+                
+            }
+            #gs {
+                position: relative;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                text-shadow:0.1px 0.08px black;
+                
+
+            }
+            #ifl {
+                position: relative;
+                left: 14px;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                text-shadow:0.1px 0.08px black;
+            }
+            #search:hover {
+                box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    outline: none;
+                
+            }
+            .circle {
+                height: 22px;
+                width: 22px;
+                background-color: transparent;
+                border: solid;
+                border-color: #a0a0a0;
+                border-width: 5px;
+                border-radius: 50%;
+            }
+            .circle:hover {
+                opacity: 0.7;
+            }
+
+            .square {
+                height: 4px;
+                width: 4px;
+                background-color: black;
+                text-align: center;
+            }
+            .squares:hover {
+                opacity: 0.9;
+            }
+            .squares {
+                display: grid;
+                justify-content: center;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                top: 8px;
+                grid-template-rows: repeat(3, [row-start] 6px [row-end]);
+                grid-template-columns: repeat(3, [col-start] 6px [col-end]);
+                opacity: 0.5;
+            }
+            a {
+                text-decoration: none;
+                color: #000000DE;
+                font-family: arial, sans-serif;  
+                font-size: 13px;              
+            }
+            .dd {
+                display: flex;
+                position: relative;
+                top: 8px;
+                left: 1025px;
+                flex-direction: row-reverse;
+                align-items: center;
+                flex-wrap: nowrap;
+                justify-content: center;
+                column-gap: 15px;
+                width: 241.59px;
+                height: 30px;
+            }
+            footer {
+                background-color: #dadce0;
+                border-top: 1px solid #a0a0a0;
+                position: fixed;
+                opacity: 0.5;
+                width: 100%;
+                height: 82px;
+                bottom: 0px;
+                left: 0px;
+            }
+            p {
+                position: fixed;
+                font-family: arial, sans-serif;
+                right: 30%;
+                font-weight: 500;
+            }
+
+        </style>
+            
+    </head>
+    <body>
+        <header class="dd">
+            <a href="https://myaccount.google.com/"><div class="circle" ></div></a>
+
+        <a href="https://workspace.google.com/"><div class="squares">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div> </a>
+
+        <a href="https://www.google.jo/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+        </header>
+        <main>
+        <img id="logo" src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="s">
+        <input id="search" type="text">
+        <div id="buttons">
+        <a href="https://github.com/Nasser198"><button id="gs">Google Search</button></a>
+        <a href="https://www.google.com./doodles/"><button id="ifl">I'm Feeling Lucky</button></a>
+        </div>
+        </main>
+        <footer>
+            <p>This page sucks very much, I hope you like it... naserayasrah69@gmail.com</p>
+        </footer>
+</body>
+</html>
